@@ -49,5 +49,6 @@ export default new Router({
       path: '/*',
       redirect: '/zh_CN'
     }
-  ]
+  ],
+  base: '/icu'
 })
